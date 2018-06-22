@@ -16,5 +16,10 @@ public class Test {
 		d.shuffleDeck();
 		System.out.print("\nPrint new shuffled deck.");
 		d.printDeck();
+		
+		//testing hand functionality
+		Hand h = new Hand(52, 0);
+		h.drawCard(d);
+		
 	}
 }

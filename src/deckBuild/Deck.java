@@ -1,4 +1,5 @@
 package deckBuild;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -60,5 +61,9 @@ public class Deck {
 		Random r = new Random();			
 		int selector = r.nextInt(deck.size());
 		return deck.remove(selector);
+	}
+	
+	public Card Draw() {
+		return deck.remove(deck.size());
 	}
 }
