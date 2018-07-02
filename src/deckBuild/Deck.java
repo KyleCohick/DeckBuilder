@@ -64,6 +64,6 @@ public class Deck {
 	}
 	
 	public Card Draw() {
-		return deck.remove(deck.size());
+		return deck.remove(deck.size()-1);
 	}
 }

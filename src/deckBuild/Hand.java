@@ -42,7 +42,7 @@ public class Hand {
 	public boolean searchHand(int targetValue, String targetSuit) {
 		int i;
 		for (i = 0; i < hand.size(); i++) {
-			if (hand.get(i).suit.equals(targetSuit) || hand.get(i).value == targetValue) {
+			if (hand.get(i).suit.equals(targetSuit) && hand.get(i).value == targetValue) {
 				return true;
 			}
 		}
