@@ -24,6 +24,16 @@ public class Test {
 		h.drawCard(d);
 		h.drawCard(d);
 		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
+		h.drawCard(d);
 		System.out.println("\nThis is a newly constructed hand:");
 		h.showHand();
 		System.out.println("\nCard to be removed: (Test showCard)");
